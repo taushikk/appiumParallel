@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="SM-J6(failed)" parallel="tests">
+    <parameter name="version" value="10"/>
+    <parameter name="deviceName" value="SM-J600G"/>
+    <parameter name="deviceID" value="32006e8bf0fe5563"/>
+    <classes>
+      <class name="framework.SearchTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="sampleFailTestCase"/>
+          <include name="TestSetUp"/>
+          <include name="samplePassTestCase"/>
+          <include name="startAppiumServer"/>
+        </methods>
+      </class> <!-- framework.SearchTest -->
+    </classes>
+  </test> <!-- SM-J6(failed) -->
+</suite> <!-- Failed suite [Suite] -->

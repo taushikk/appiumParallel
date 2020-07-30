@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="89018" started-at="2020-07-30T09:42:21 IST" finished-at="2020-07-30T09:43:50 IST">
+    <groups>
+    </groups>
+    <test name="SM-J6" duration-ms="89018" started-at="2020-07-30T09:42:21 IST" finished-at="2020-07-30T09:43:50 IST">
+      <class name="busniessLogic.SearchTest">
+        <test-method status="PASS" signature="TestSetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:busniessLogic.SearchTest@78e67e0a]" name="TestSetUp" is-config="true" duration-ms="80693" started-at="2020-07-30T09:42:21 IST" finished-at="2020-07-30T09:43:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SM-J600G]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[32006e8bf0fe5563]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetUp -->
+        <test-method status="PASS" signature="sampleFailTestCase(java.lang.String)[pri:0, instance:busniessLogic.SearchTest@78e67e0a]" name="sampleFailTestCase" duration-ms="70" started-at="2020-07-30T09:43:42 IST" finished-at="2020-07-30T09:43:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SM-J600G]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleFailTestCase -->
+        <test-method status="PASS" signature="samplePassTestCase(java.lang.String)[pri:0, instance:busniessLogic.SearchTest@78e67e0a]" name="samplePassTestCase" duration-ms="37" started-at="2020-07-30T09:43:42 IST" finished-at="2020-07-30T09:43:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SM-J600G]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplePassTestCase -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:busniessLogic.SearchTest@78e67e0a]" name="TearDown" is-config="true" duration-ms="8099" started-at="2020-07-30T09:43:42 IST" finished-at="2020-07-30T09:43:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- busniessLogic.SearchTest -->
+    </test> <!-- SM-J6 -->
+  </suite> <!-- Suite -->
+</testng-results>
