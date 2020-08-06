@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests">
-	<!-- <test thread-count="5" name="SM-J6">
+	<test thread-count="5" name="SM-J6">
 		<parameter name="version" value="10"></parameter>
 		<parameter name="deviceName" value="SM-J600G"></parameter>
 		<parameter name="deviceID" value="32006e8bf0fe5563"></parameter>
 		<classes>
 			<class name="busniessLogic.SearchTest" />
 		</classes>
-	</test>--> <!-- Test -->
+	</test> <!-- Test -->
 	<test thread-count="5" name="SM-A50">
 		<parameter name="version" value="10"></parameter>
 		<parameter name="deviceName" value="SM-A505F"></parameter>
