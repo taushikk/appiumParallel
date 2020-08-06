@@ -58,9 +58,11 @@ public class BaseTest extends TestListener implements ITestListener {
 	}
 
 	@AfterTest
-	public void TearDown() {
+	public void TearDown() throws InterruptedException {
 		System.out.println("After Test");
+		Thread.sleep(2000);
 		driver.quit();
+		Thread.sleep(2000);
 		myExtent.flush();
 
 	}
